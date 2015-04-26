@@ -5,14 +5,15 @@
     <artifactId>PrimeNumbers</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>PrimeNumbers Maven Webapp</name>
-    <url>http://maven.apache.org</url>
+    <name>Westerdals PrimeNumber Checker</name>
+    <description>This project is a primechecker that checks if some user input is a prime number or not.</description>
     <developers>
         <developer>
             <id>ronesp13@student.westerdals.no</id>
             <name>Espen Rønning</name>
             <roles>
                 <role>Owner</role>
+                <role>Developer</role>
             </roles>
         </developer>
     </developers>
