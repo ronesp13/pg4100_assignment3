@@ -11,6 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * @author Espen Rønning
+ */
 @WebServlet("/prime-check")
 public class PrimeController extends HttpServlet {
 
@@ -20,6 +23,9 @@ public class PrimeController extends HttpServlet {
     private static final String NOT_PRIME_PAGE= "not_a_prime";
     private static final String INVALID_INPUT = "invalid_input";
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String address;
